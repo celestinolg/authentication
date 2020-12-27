@@ -1,0 +1,27 @@
+{
+    "name": "celestinolg/authentication",
+    "description": "Sistem of authentication in php using agron2 and token of form",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Celestino Langa",
+        "email": "celestinolanga11@gmail.com",
+        "role": "Developer"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Source\\": "source/"
+      },
+      "files": [
+        "source/config/Config.php",
+        "source/config/Helper.php"
+      ]
+    },
+    "require": {
+      "php": "^7.3",
+      "league/plates": "v4.0.0-alpha",
+        "coffeecode/router": "^1.0"
+    }
+  }
